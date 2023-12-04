@@ -17,13 +17,6 @@ Run the simulation node with the command:
 
 ## Assignment
 
-
-According to which portion of the exam you need to take, you can focus on specific parts of the assignment:
-- If you're taking the full exam, read further, as you will need to implement the full architecture, made up of three nodes.
-- If you're taking the pub/sub part only (Part #2), focus on point 2) for the development of the controller.
-- If you're taking the client/service part only (Part #3), focus on part 3) for the implementation of the robot logic + you will need to implement the two service interfaces (only the .srv file, the callbacks are already implemented inside *sim_node.py*). To this extent, make sure to analyze the commented code in *sim_node.py* to correctly define the service interfaces. Of course, feel free to de-comment the code once you have provided the interfaces to test your solution.
-
-
 1) The **navigation sim node** is already provided with this repository and acts as the simulator of the mobile robot navigating in a known environment, exposing all the necessary interfaces. Specifically, the robot is tasked with bringing the crate to the goal position. To do that, the robot needs to navigate to the crate, grasp it and then bring it to the goal position (represented by a green flag). The map is randomly generated every time you launch the simulation, with an assured path between robot and its goals.
     1. *Subscribed Topic*
        1) **/robot/cmd_vel**: twist message to control linear and angular velocities of the mobile robot
