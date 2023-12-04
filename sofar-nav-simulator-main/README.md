@@ -38,15 +38,6 @@ spin_thread = Thread(target=rclpy.spin, args=(logic,))
 spin_thread.start()
 ```
 
-![Architecture](sofar_simple_nav/resource/architecture.png)
-
-### Important Notes
-
-**BEWARE: it is mandatory to rename your package before submission on AulaWeb (make sure to change the package name in the *setup.py*, *package.xml*, under the *resource* folder, in the *setup.cfg* and inside *sim_node.py* at line 32) according to the following template &rarr;** *&lt;surname&gt;_&lt;matricola&gt;_final* 
-
-**BEWARE2: It is mandatory to launch the full simulation using a launch file. SUBMISSIONS NOT INCLUDING A LAUNCH FILE WILL NOT BE EVALUATED!!!**
-
-Good luck ;)
 
 ## Expected Output
 
